@@ -18,7 +18,7 @@ public class StudentService {
     }
 
     public Student createStudent(Student student) {
-        // Save the student object using the studentRepository
+      
         return studentRepository.save(student);
     }
 }
